@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { getFirebaseToken } from '../../firebase';
+import messaging, { getFirebaseToken } from '../../firebase';
 
 import Button from '../../components/Button';
 
@@ -68,7 +68,7 @@ const Main: React.FC = () => {
     let aaa = '';
     aaa = await getFirebaseToken();
 
-    // alert(`aaa = ${aaa}`);
+    alert(`aaa = ${aaa}`);
 
     setInscricao(aaa);
   };

@@ -2,7 +2,6 @@
   "name": "pwa-basico",
   "version": "0.3.0",
   "private": true,
-  "homepage": "https://MateusNobreSilva.github.io/pwa-main-projeto-react-js",
   "dependencies": {
     "@date-io/date-fns": "1.x",
     "@material-ui/core": "^4.11.3",
@@ -26,7 +25,6 @@
     "crypto-js": "^4.0.0",
     "date-fns": "^2.19.0",
     "firebase": "^9.2.0",
-    "gh-pages": "^4.0.0",
     "react": "^17.0.1",
     "react-device-detect": "^1.17.0",
     "react-dom": "^17.0.1",
@@ -55,8 +53,6 @@
     "yup": "^0.32.9"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
